@@ -1,3 +1,6 @@
+# Scripted by SUTerminal550
+#
+# Install on terminal
 # pip install pynput
 
 from pynput import keyboard
