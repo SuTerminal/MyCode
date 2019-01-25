@@ -16,6 +16,7 @@ def on_release(key):
             quit()
         face_expression = False
 
+    #SET FACE EXPRESSION:
     elif key == keyboard.KeyCode(char='+'):
         face_expression = 'c'
     elif key == keyboard.KeyCode(char='-'):
@@ -29,6 +30,7 @@ def on_release(key):
     elif key == keyboard.Key.f10:
         face_expression = '-'
 
+    #SET EYES AND FACE: 
     elif key == keyboard.Key.home:
         left_up(face_expression)
     elif key == keyboard.Key.up:
@@ -38,7 +40,7 @@ def on_release(key):
     elif key == keyboard.Key.left:
         left(face_expression)
     # elif key == keyboard.<12>: Numpad clear key dosen't work
-    elif key == keyboard.Key.insert:  # numpade ins
+    elif key == keyboard.Key.insert:  #numpade insert
         mid(face_expression)
     elif key == keyboard.Key.right:
         right(face_expression)
@@ -49,8 +51,8 @@ def on_release(key):
     elif key == keyboard.Key.page_down:
         right_down(face_expression)
 
-    else:
-        print(f"relessed {key}")
+    #else:
+    #    print(f"relessed {key}") 
 
 
 def left_up(face):
