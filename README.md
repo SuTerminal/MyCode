@@ -14,8 +14,8 @@ Hotkeys: Set face expression:
 
     Numpad + :: set Smile (example oco)
     Numpad - :: set default (example o-o)
-    Numpad Dot :: set surprised (example o.o)
-    Numpad multiplay :: set mad/confused (example o~o)
+    Numpad * dot :: set surprised (example o.o)
+    Numpad / division :: set mad/confused (example o~o)
     F9 :: set sad (example omo)
     F10 - :: set default longer (example o_o)
 
@@ -39,6 +39,6 @@ Change face: (turn off numlock key)
 
     numlock2/numDown: look down (example 6c6)
 
-    numlock3/numpageDown: look down (example bcb)
+    numlock3/numpageDown: look right down (example bcb)
 
 Others: ESC:: Double press ESC to exit script
